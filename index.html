@@ -1,0 +1,111 @@
+# Dz9
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prices</title>
+    <style>
+        body {
+            background-color: #D70071;
+            color: white;
+            font-family: sans-serif;
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .prices {
+            display: flex;
+            gap: 20px;
+            background-color: #B3005C;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .price-card {
+            text-align: center;
+            background-color: #8C0048;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .price-card h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .price-card .price {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .price-card ul {
+            list-style: none;
+            padding: 0;
+            margin-bottom: 10px;
+        }
+
+        .price-card li {
+            margin-bottom: 5px;
+        }
+
+        button {
+            background-color: #FF5733;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background-color: #E04327;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="prices">
+            <div class="price-card">
+                <h2>Standart</h2>
+                <div class="price">2000</div>
+                <ul>
+                    <li>1 year</li>
+                    <li>Itaque ratione</li>
+                    <li>Laboriosam officia</li>
+                </ul>
+                <button>ORDER</button>
+            </div>
+            <div class="price-card">
+                <h2>Express</h2>
+                <div class="price">3000</div>
+                <ul>
+                    <li>1 year</li>
+                    <li>Itaque ratione</li>
+                    <li>Laboriosam officia</li>
+                </ul>
+                <button>ORDER</button>
+            </div>
+            <div class="price-card">
+                <h2>Premium</h2>
+                <div class="price">5000</div>
+                <ul>
+                    <li>1 year</li>
+                    <li>Itaque ratione</li>
+                    <li>Laboriosam officia</li>
+                </ul>
+                <button>ORDER</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
